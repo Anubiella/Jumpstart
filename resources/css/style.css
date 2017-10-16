@@ -1,0 +1,55 @@
+body{
+	font-size: 14px;
+	font-family: "Open Sans", "Monoton", sans-serif;
+}
+
+/*HEADER SECTION*/
+.navbar-default .navbar-nav>li>a{
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: initial;
+	color: #399bd1;
+}
+/*JUMBOTRON SECTION*/
+.jumbotron {
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+	padding-top: 11.85rem;
+	padding-bottom: 11.85rem;
+	text-shadow: 
+	    -1px -1px 0 #000,
+	    1px -1px 0 #000,
+	    -1px 1px 0 #000,
+	    1px 1px 0 #000;
+}
+.jumbotron-bike{
+	background-image: url('../images/jumbotron-bike.jpg');
+}
+.jumbotron h1{
+	font-family: "Monoton", sans-serif;
+	font-size: 7.1rem;
+	color: white;
+	text-shadow: -1px -1px 0 #000;
+}
+.jumbotron p{
+	max-width: 51.3rem;
+	margin: 0 auto;
+}
+.jumbotron .container-fluid{
+	padding-bottom: 2.8rem;
+}
+.jumbotron .btn-lg{
+	padding-top: 1.3rem;
+	padding-bottom: 1.3rem;
+	background-color: #399bd1;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+	transition: box-shadow 0.7s ease-in-out;
+}
+.jumbotron .btn-lg:hover{
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
