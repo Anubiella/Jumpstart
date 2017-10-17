@@ -1,5 +1,7 @@
-body{
+html{
 	font-size: 14px;
+}
+body{
 	font-family: "Open Sans", "Monoton", sans-serif;
 }
 
@@ -44,12 +46,23 @@ body{
 	padding-bottom: 2.8rem;
 }
 .jumbotron .btn-lg{
+	width: 11.4rem;
 	padding-top: 1.3rem;
 	padding-bottom: 1.3rem;
 	background-color: #399bd1;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-	transition: box-shadow 0.7s ease-in-out;
+	transition: box-shadow 0.3s ease-in-out;
 }
 .jumbotron .btn-lg:hover{
 	box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+	border: 0;
+}
+.jumbotron .btn-lg:active{
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+.btn{
+	border: 0;
+}
+.btn .btn-primary{
+	border: 0;
 }
