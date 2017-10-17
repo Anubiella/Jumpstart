@@ -36,7 +36,6 @@ body{
 	font-family: "Monoton", sans-serif;
 	font-size: 7.1rem;
 	color: white;
-	text-shadow: -1px -1px 0 #000;
 }
 .jumbotron p{
 	max-width: 51.3rem;
@@ -52,6 +51,7 @@ body{
 	background-color: #399bd1;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 	transition: box-shadow 0.3s ease-in-out;
+	text-shadow: none;
 }
 .jumbotron .btn-lg:hover{
 	box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
@@ -63,6 +63,41 @@ body{
 .btn{
 	border: 0;
 }
-.btn .btn-primary{
-	border: 0;
+/*FEATURED PROJECT SECTION*/
+.feathead{
+	padding-bottom: 20px;
+}
+.featured h3{
+	font-size: 1.7rem;
+	font-weight: bold;
+	color: #399bd1;
+}
+.featured h4{
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: #399bd1;
+}
+.documentary h4{
+	color: black;
+}
+.featured ul li{
+	color: rgba(0, 0, 0, 0.7);
+	line-height: 1.4;
+}
+.image-container img{
+	width: 100%;
+	opacity: 0.7;
+}
+/*PROJECTS SECTION*/
+.projhead h3{
+	font-size: 1.7rem;
+	font-weight: bold;
+	color: #399bd1;
+}
+.projects h4{
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+.projects{
+	padding-bottom: 5.85rem;
 }
